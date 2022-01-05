@@ -1,1 +1,1 @@
-Contract Coming
+Contract Coming soon!
