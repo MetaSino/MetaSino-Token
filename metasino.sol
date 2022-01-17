@@ -1,5 +1,5 @@
 /**
- *Submitted for verification at BscScan.com on 2022-01-14
+ *Submitted for verification at BscScan.com on 2022-01-16
 */
 
 // SPDX-License-Identifier: MIT
@@ -14,7 +14,7 @@
 // | $$ \/  | $$| $$$$$$$$   | $$  | $$  | $$|  $$$$$$/ /$$$$$$| $$ \  $$|  $$$$$$/
 // |__/     |__/|________/   |__/  |__/  |__/ \______/ |______/|__/  \__/ \______/ 
                                                                                 
-                                                                                                                                                       
+                                                                                                                                           
 
 //METASINO TOKEN
 //A fun P2E Hub / Ecosystem that awards both winners and losers :)
@@ -828,7 +828,7 @@ contract Metasino is Context, IERC20 {
                 && liquidityFee <= maxLiquidityFee
                 && marketingFee <= maxMarketingFee
                 && burnFee <= maxBurnFee);
-        require(liquidityFee + reflectFee + marketingFee + burnFee <= 50);
+        require(liquidityFee + reflectFee + marketingFee + burnFee <= 5000);
 
         _sellLiquidityFee = liquidityFee;
         _sellReflectFee = reflectFee;
@@ -846,7 +846,7 @@ contract Metasino is Context, IERC20 {
                 && liquidityFee <= maxLiquidityFee
                 && marketingFee <= maxMarketingFee
                 && burnFee <= maxBurnFee);
-        require(liquidityFee + reflectFee + marketingFee + burnFee <= 50);
+        require(liquidityFee + reflectFee + marketingFee + burnFee <= 5000);
 
         _transferLiquidityFee = liquidityFee;
         _transferReflectFee = reflectFee;
